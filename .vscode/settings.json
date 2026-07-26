@@ -1,0 +1,17 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    // "python.languageServer": "Pylance",
+    // "editor.semanticHighlighting.enabled": true,
+    // "[python]": {
+    //     "editor.semanticHighlighting.enabled": true
+    // },
+    "python.analysis.autoImportCompletions": true,//代码提示，自动补全
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/backend"
+    ],
+    "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/backend"
+    },
+}
