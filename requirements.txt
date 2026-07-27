@@ -8,6 +8,7 @@ email-validator
 # Async MySQL database and migrations
 SQLAlchemy>=2.0
 aiomysql
+aiosqlite
 alembic
 
 # Email delivery
@@ -15,6 +16,8 @@ fastapi-mail
 
 # Password hashing
 pwdlib[argon2]
+PyJWT>=2.8
+python-dotenv
 
 # Optional: required after the unfinished ChatDeepSeek agent is enabled
 # langchain-deepseek
